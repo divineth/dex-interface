@@ -186,7 +186,7 @@ export default function Faucet(): JSX.Element {
   )
 }
 
-export function getStaticProps(){
+export function getServerSideProps(){
   return {
     notFound: true,
   };

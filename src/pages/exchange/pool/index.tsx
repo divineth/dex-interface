@@ -176,7 +176,7 @@ export default function Pool() {
     </>
   )
 }
-export function getStaticProps(){
+export function getServerSideProps(){
   return {
     notFound: true,
   };

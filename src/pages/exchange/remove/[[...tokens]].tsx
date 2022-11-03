@@ -865,7 +865,7 @@ export default function Remove() {
   )
 }
 
-export function getStaticProps(){
+export function getServerSideProps(){
   return {
     notFound: true,
   };

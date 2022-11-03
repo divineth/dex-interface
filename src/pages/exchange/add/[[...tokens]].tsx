@@ -523,7 +523,7 @@ export default function Add() {
   )
 }
 
-export function getStaticProps(){
+export function getServerSideProps(){
   return {
     notFound: true,
   };

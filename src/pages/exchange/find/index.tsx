@@ -183,7 +183,7 @@ export default function PoolFinder() {
   )
 }
 
-export function getStaticProps(){
+export function getServerSideProps(){
   return {
     notFound: true,
   };

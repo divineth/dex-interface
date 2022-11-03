@@ -197,7 +197,7 @@ export default function Vault(): JSX.Element {
   )
 }
 
-export function getStaticProps(){
+export function getServerSideProps(){
   return {
     notFound: true,
   };

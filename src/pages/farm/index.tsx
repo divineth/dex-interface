@@ -277,7 +277,7 @@ export default function Farm(): JSX.Element {
   )
 }
 
-export function getStaticProps(){
+export function getServerSideProps(){
   return {
     notFound: true,
   };
