@@ -325,3 +325,9 @@ export default function Bridge() {
     </>
   )
 }
+
+export function getStaticProps(){
+  return {
+    notFound: true,
+  };
+}

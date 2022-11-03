@@ -522,3 +522,9 @@ export default function Add() {
     </>
   )
 }
+
+export function getStaticProps(){
+  return {
+    notFound: true,
+  };
+}

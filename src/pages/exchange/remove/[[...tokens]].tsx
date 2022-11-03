@@ -864,3 +864,9 @@ export default function Remove() {
     </>
   )
 }
+
+export function getStaticProps(){
+  return {
+    notFound: true,
+  };
+}

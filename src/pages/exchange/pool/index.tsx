@@ -176,3 +176,8 @@ export default function Pool() {
     </>
   )
 }
+export function getStaticProps(){
+  return {
+    notFound: true,
+  };
+}

@@ -35,46 +35,12 @@ function AppBar(): JSX.Element {
                           {i18n._(t`Swap`)}
                         </a>
                       </NavLink>
-                      <NavLink href="/exchange/pool">
-                        <a
-                          id={`pool-nav-link`}
-                          className="p-2 text-base text-primary hover:text-high-emphesis focus:text-high-emphesis whitespace-nowrap"
-                        >
-                          {i18n._(t`Pool`)}
-                        </a>
-                      </NavLink>
-                      <NavLink href={'/farm'}>
-                        <a
-                          id={`farm-nav-link`}
-                          className="p-2 text-base text-primary hover:text-high-emphesis focus:text-high-emphesis whitespace-nowrap"
-                        >
-                          {i18n._(t`Farm`)}
-                        </a>
-                      </NavLink>
-                      <NavLink href={'/vaults'}>
-                        <a
-                          id={`vaults-nav-link`}
-                          className="p-2 text-base text-primary hover:text-high-emphesis focus:text-high-emphesis whitespace-nowrap"
-                        >
-                          {i18n._(t`Vaults`)}
-                        </a>
-                      </NavLink>
                       <NavLink href={'/locker'}>
                         <a
                           id={`farm-nav-link`}
                           className="p-2 text-base text-primary hover:text-high-emphesis focus:text-high-emphesis whitespace-nowrap"
                         >
                           {i18n._(t`Locker`)}
-                        </a>
-                      </NavLink>
-                      <NavLink href={'/bridge'}>
-                        <a className="p-2 text-base text-primary hover:text-high-emphesis focus:text-high-emphesis whitespace-nowrap">
-                          {i18n._(t`Bridge`)}
-                        </a>
-                      </NavLink>
-                      <NavLink href={'/eclipse'}>
-                        <a className="p-2 text-base text-primary hover:text-high-emphesis focus:text-high-emphesis whitespace-nowrap">
-                          {i18n._(t`Eclipse`)}
                         </a>
                       </NavLink>
                       <NavLink href="https://analytics.solarbeam.io">
@@ -160,46 +126,12 @@ function AppBar(): JSX.Element {
                     {i18n._(t`Swap`)}
                   </a>
                 </Link>
-                <Link href={'/exchange/pool'}>
-                  <a
-                    id={`pool-nav-link`}
-                    className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
-                  >
-                    {i18n._(t`Pool`)}
-                  </a>
-                </Link>
-                <Link href={'/farm'}>
-                  <a
-                    id={`farm-nav-link`}
-                    className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
-                  >
-                    {i18n._(t`Farm`)}
-                  </a>
-                </Link>
-                <Link href={'/vaults'}>
-                  <a
-                    id={`vaults-nav-link`}
-                    className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
-                  >
-                    {i18n._(t`Vaults`)}
-                  </a>
-                </Link>
                 <Link href={'/locker'}>
                   <a
                     id={`farm-nav-link`}
                     className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
                   >
                     {i18n._(t`Locker`)}
-                  </a>
-                </Link>
-                <Link href={'/bridge'}>
-                  <a className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap">
-                    {i18n._(t`Bridge`)}
-                  </a>
-                </Link>
-                <Link href={'/eclipse'}>
-                  <a className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap">
-                    {i18n._(t`Eclipse`)}
                   </a>
                 </Link>
                 <Link href="https://analytics.solarbeam.io">

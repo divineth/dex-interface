@@ -24,3 +24,9 @@ export default function NFTLaunchpad(): JSX.Element {
     </>
   )
 }
+
+export function getStaticProps(){
+  return {
+    notFound: true,
+  };
+}

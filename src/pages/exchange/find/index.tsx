@@ -182,3 +182,9 @@ export default function PoolFinder() {
     </>
   )
 }
+
+export function getStaticProps(){
+  return {
+    notFound: true,
+  };
+}
